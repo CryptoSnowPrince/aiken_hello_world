@@ -53,3 +53,17 @@ aiken docs
 ## Resources
 
 Find more on the [Aiken's user manual](https://aiken-lang.org).
+
+### Test
+
+```sh
+deno run --allow-net --allow-write generate-credentials.ts
+```
+
+```sh
+deno run --allow-net --allow-read --allow-env hello_world-lock.ts
+```
+
+```sh
+deno run --allow-net --allow-read --allow-env hello_world-unlock.ts txID
+```
